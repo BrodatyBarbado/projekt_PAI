@@ -1,0 +1,22 @@
+#header-atraction {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 40px;
+}
+
+#header-atraction > h2 {
+    margin: 0px;
+}
+
+#photo-atraction {
+    height: 500px;
+    overflow: hidden;
+}
+
+#photo-atraction > img {
+    width: 100%;
+}
+
+#desc {
+    padding: 30px 50px;
+}
