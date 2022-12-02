@@ -14,10 +14,10 @@
         $array = [];
 
         function atrakcja() {
-            global $conn;
 
+            global $conn;
             $id = $_GET['id'];
-            $sql = "SELECT * FROM Atrakcje WHERE Id=$id";
+            $sql = "SELECT * FROM Wpisy WHERE Id=$id";
             $query = $conn->query($sql);
 
             $array = [];
@@ -26,7 +26,7 @@
                 $array = [
                     "Nazwa"=>$results['Nazwa'],
                     "Opis"=>$results['Opis'],
-                    "Zdjecie"=>$results['Media'],
+                    "Zdjecie"=>$results['Zdjecie'],
                 ];
             }
 
@@ -37,7 +37,7 @@
 
     ?>
 
-    <section id="header-atraction">
+<section id="header-atraction">
         <h2><?php echo $array['Nazwa']?></h2>
     </section>
     

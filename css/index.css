@@ -19,19 +19,12 @@ header {
   width: 300px;
   margin: 0px;
   height: 70px;
-  display: flex; /*-ŻEBY WYKONAC PONIŻSZE FUNCJE MUSISZ MIĘC TO-*/
-  justify-content: center; /*-POZYCJA NA OSI X-*/
-  align-items: center; /*-POZYCJA NA OSI Y-*/
-}
-
-#logo-holder {
-  margin: 0px;
-  width:260px;
-  height:70px;
+  background-position: center;
+  background-size: cover;
 }
 
 #link-holder {
-  width: calc(100% - 200px);
+  width: calc(100% - 300px);
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -63,7 +56,7 @@ header {
 footer {
   height: 384px;
   width: 100%;
-  background-color:#323233;
+  background-color:#0296D8;
 }
 
 h2 {

@@ -19,7 +19,7 @@
 		<div id="link-holder">
 			<a href="index.php?strona=strona-glowna" class="header-links">Strona główna</a>
 			<a href="index.php?strona=atrakcje" class="header-links" id="last-link">Atrakcje</a>
-			<a href="index.php?strona=wpisy" class="header-links">Wpisy</a>
+			<a href="panel/index.php" class="header-links">Panel admina</a>
 			<a href="index.php?strona=o_firmie" style="margin-right:74px;" class="header-links">O firmie</a>
 			<a href="index.php?strona=zaloguj" class="header-links">Zaloguj</a>
 			<a href="index.php?strona=zarejestruj" class="header-links">Zarejstruj</a>

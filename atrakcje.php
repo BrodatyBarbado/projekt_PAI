@@ -14,7 +14,7 @@
 		function atrakcje() {
 			global $conn;
 
-			$sql = "SELECT * FROM Atrakcje";
+			$sql = "SELECT * FROM wpisy";
 			$query = $conn->query($sql);
 			
 			if($query->num_rows > 0 && $query != false) {
@@ -27,7 +27,7 @@
 					echo "
 						<section class='atraction'>
 							<section class='photo'>
-								<img src='img/{$results['Media']}/photo.jpeg'>
+								<img src='img/{$results['Zdjecie']}/photo.jpeg'>
 							</section>
 				
 							<section class='other'>
